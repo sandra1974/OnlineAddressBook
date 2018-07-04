@@ -1,0 +1,19 @@
+Database name: products
+Database table: person
+
+create table person (
+
+id int not null auto_increment,
+name varchar(300) null,
+surname varchar(300) null,
+address varchar(300) null,
+phone varchar(300) null,
+mobile varchar(300) null,
+email varchar(300) null,
+notes varchar(2000) null,
+primary key(id));
+
+
+insert into person (name, surname, address, phone, mobile, email, notes) values ('Tina', 'Smith', 'Los Angeles', '001-123-456', '011-789-1122', 'tina@mail.com', 'Notes write here');
+insert into person (name, surname, address, phone, mobile, email, notes) values ('John', 'Roth', 'New York', '001-321-654', '011-987-2211', 'john@mail.com', 'Notes write here');
+insert into person (name, surname, address, phone, mobile, email, notes) values ('Ella', 'Mayor', 'London', '001-312-231', '011-698-1212', 'ella@mail.com', 'Notes write here');
